@@ -3,12 +3,13 @@ package service
 import (
 	"crypto/sha1"
 	"fmt"
+	"os"
 
 	"github.com/saskedr/todo-app"
 	"github.com/saskedr/todo-app/internal/repository"
 )
 
-const salt = "okjdfsdjnfsdf4jrj"
+var salt = os.Getenv("SALT")
 
 type AuthService struct {
 	repo repository.Authorization
