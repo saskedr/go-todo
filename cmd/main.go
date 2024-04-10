@@ -7,9 +7,9 @@ import (
 	"github.com/joho/godotenv"
 	_ "github.com/lib/pq"
 	"github.com/saskedr/todo-app"
-	"github.com/saskedr/todo-app/pkg/handler"
-	"github.com/saskedr/todo-app/pkg/repository"
-	"github.com/saskedr/todo-app/pkg/service"
+	"github.com/saskedr/todo-app/internal/handler"
+	"github.com/saskedr/todo-app/internal/repository"
+	"github.com/saskedr/todo-app/internal/service"
 	"github.com/spf13/viper"
 )
 

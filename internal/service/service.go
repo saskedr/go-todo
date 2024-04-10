@@ -1,6 +1,6 @@
 package service
 
-import "github.com/saskedr/todo-app/pkg/repository"
+import "github.com/saskedr/todo-app/internal/repository"
 
 type Authorization interface {
 }
